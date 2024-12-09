@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "babel index.js --out-dir lib",
+    "start": "node ./lib/index.js"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@types/node": "^22.10.1"
+  }
+}
